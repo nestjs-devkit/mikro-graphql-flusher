@@ -29,7 +29,8 @@ export class MikroFlusherInterceptor implements NestInterceptor {
     if (operation != "mutation") return next.handle();
 
     const context = MikroFlusherContext.current;
-    if (!context) throw new Error();
+    if (!context)
+      throw new Error("The middleware must be applied for this route");
 
     context.mutationCountTotal++;
 
