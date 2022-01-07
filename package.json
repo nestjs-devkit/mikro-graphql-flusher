@@ -1,6 +1,6 @@
 {
   "name": "@nestjs-devkit/mikro-graphql-flusher",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "GraphQL bulk-operation solution for MikroORM in Nest.",
   "main": "lib/index.js",
   "scripts": {
