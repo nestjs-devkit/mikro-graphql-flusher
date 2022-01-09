@@ -16,12 +16,20 @@
     "type": "git",
     "url": "git+https://github.com/nestjs-devkit/mikro-graphql-flusher.git"
   },
-  "author": "",
+  "author": {
+    "name": "Char2s",
+    "email": "Char2s@outlook.com"
+  },
   "license": "Apache-2.0",
   "bugs": {
     "url": "https://github.com/nestjs-devkit/mikro-graphql-flusher/issues"
   },
   "homepage": "https://github.com/nestjs-devkit/mikro-graphql-flusher#readme",
+  "keywords": [
+    "typescript",
+    "mikro-orm",
+    "graphql"
+  ],
   "devDependencies": {
     "@mikro-orm/core": "^4.5.10",
     "@mikro-orm/nestjs": "^4.3.1",
